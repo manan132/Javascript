@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let a=Number(prompt("enter number"))
+        // let i=1
+        // while(i<=a){
+        //     console.log(i)
+        //     i++
+        // }
+
+
+        // let a=Number(prompt("enter number"))
+        // let i=1
+        // while(a>=i){
+        //     console.log(a)
+        //     a--
+        // }
+
+        // let a="alphabets are :"
+        // let i='a'
+        // while(i<='z'){                               ------------------------------------------------------------
+        //     console.log(i)
+        //     i++
+        // }
+
+        // let a=Number(prompt("enter number"))
+        // let i=1
+        // let sum=0
+        // while(i<=a){
+        //     sum=sum+i
+        //     i++
+        // }
+        // console.log(sum)
+
+        // let a=Number(prompt("enter number"))
+        // let i=1
+        // let sum=0
+        // while(i<=a){
+        //     if(i%2==0){
+        //     sum=sum+i
+        //     i++}
+        //     else{
+        //         i++
+        //     }
+        // }
+        // console.log(sum)
+
+        // let n=Number(prompt("enter a number for table"))
+        // let i=1
+        // let mul=10
+        // let a
+        // while(i<=mul){
+        //     a=n*i
+        //     console.log(a)
+        //     i++
+        // }
+
+
+        // let i=Number(prompt("enter a number"))
+        // let a=i%10
+        // while(i>=10){
+        //     i=parseInt(i/10)
+           
+        // }
+        // console.log("first digit",i)
+        // console.log("last digit",a)
+
+
+        // let i=Number(prompt("enter a number"))
+        // let a=i%10
+        // let sum=0
+        // while(i>=10){
+        //     i=parseInt(i/10)
+           
+        // }
+        // sum=a+i
+        // console.log("Sum of 1st and last digit",sum)
+        // console.log("first digit",i)
+        // console.log("last digit",a)
+
+
+
+        // let i=Number(prompt("enter a number"))
+        // let a=i%10
+        // let temp
+        // while(i>=10){
+        //     i=parseInt(i/10)
+        // }
+        // console.log("first digit before swaping",i)
+        // console.log("last digit before swaping",a)
+        // temp=a
+        // a=i
+        // i=temp
+        // console.log("first digit after swaping",i)
+        // console.log("last digit after swaping",a)
+
+
+    //     let a=Number(prompt("enter a number"))
+    //     let i
+    //     let rev=0
+    //     while(a!=0){
+    //         i=a%10
+    //         rev=rev*10
+    //         rev=rev+i
+    //         a=parseInt(a/10)
+    //     }
+    //    console.log(rev)
+  
+
+    // let a=Number(prompt("enter a number"))
+    // let i
+    // let rev=0
+    // let num=a
+    // while(a!=0){
+    //     i=a%10
+    //     rev=rev*10
+    //     rev=rev+i
+    //     a=parseInt(a/10)
+    // }
+    // if(num==rev){
+    //     console.log("pallindrome")
+    // }
+    // else{
+    //     console.log("not")
+    // }
+
+
+    let n=Number(prompt("enter num"))
+    let rev=0
+    let num=0
+    while(n!=0){
+        rev=(rev*10)+(n%10)
+        n=parseInt(n/10)
+    }
+    num=rev
+    while(num!=0){
+        rev=num
+        switch(num%10)
+        {
+            case 0: 
+                console.log("Zero ")
+                break
+            case 1: 
+                console.log("One ")
+                break
+            case 2: 
+                console.log("Two ")
+                break
+            case 3: 
+                console.log("Three ")
+                break
+            case 4: 
+                console.log("Four ")
+                break
+            case 5: 
+                console.log("Five ")
+                break
+            case 6: 
+                console.log("Six ")
+                break
+            case 7: 
+                console.log("Seven ")
+                break
+            case 8: 
+                console.log("Eight ")
+                break
+            case 9: 
+                console.log("Nine")
+                break
+        }
+        num=rev/10
+    }
+    </script>
+</body>
+</html>
