@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input id="input" type="text" placeholder="Enter your name">
+    <button id="btn">Add to array</button>
+    <button id="btn2">Print name</button>
+    <script>
+
+        // ...  sprid operator h sari bachi value esme aa jati h array ki form m !!
+
+        // let [a,b,c]=[10,20,30]
+        // console.log(a)
+        // console.log(b)
+        // console.log(c)
+
+
+
+        // let [a,...b]=[10,20,30]
+        // console.log(a)
+        // console.log(b)
+        // console.log(c)
+
+
+
+
+    //    setInterval(function() {
+    //     console.log("Hello!!")
+    //    }, 1000); 
+
+
+    //    setTimeout(function(){
+    //     console.log("Hello!!")
+    //    },3000)
+
+  
+        
+
+    document.getElementById("btn").onclick = function () {
+        let a=document.getElementById("input").value
+        console.log(a)
+        
+    }
+
+    document.getElementById("btn2").onclick = function () {
+       let b= document.getElementById("input").value
+       document.write(b)
+    }
+    
+
+    </script>
+</body>
+</html>
